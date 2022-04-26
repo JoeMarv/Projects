@@ -1,0 +1,693 @@
+/*formobile view*/
+body {
+    background-color: hsl(218, 28%, 13%);
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px
+}
+
+.header {
+    padding-bottom: 80vw
+}
+
+.top-part {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(217, 28%, 15%);
+    background-image: url(images/bg-curvy-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: bottom
+}
+
+.logo img {
+    width: 20vw;
+    height: auto;
+    padding: 3vw
+}
+
+.logo-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Raleway;
+    font-weight: 400;
+}
+
+.logo-links {
+    display: flex;
+    flex-direction: row;
+    padding: 4vw;
+    justify-content: space-between;
+    opacity: 80%
+}
+
+.i {
+    padding: 2.5vw;
+}
+
+.i:hover {
+    color: hsl(176, 68%, 64%);
+    cursor: pointer;
+}
+
+.get-started {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.get-started img {
+    width: 80vw;
+    height: auto;
+    padding: 5vw
+}
+
+.gs-write {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10vw;
+    padding-left: 10vw
+}
+
+.gs-write h2 {
+    font-family: Raleway;
+    font-weight: 700;
+    text-align: center;
+}
+
+.gs-write span {
+    font-family: Open Sans;
+    font-weight: 400;
+    text-align: center;
+    opacity: 80%;
+    padding-bottom: 8vw
+}
+
+.get-started button {
+    color: hsl(0, 0%, 100%);
+    font-family: Raleway;
+    font-weight: 700;
+    padding: 4vw 8vw 4vw 8vw;
+    cursor: pointer;
+    background: linear-gradient(180deg, hsl(198, 60%, 50%), hsl(176, 68%, 64%));
+    border-radius: 10vw;
+    width: 70%;
+    border: none;
+    margin: none
+}
+
+.access {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    padding-top: 32vw;
+    padding-bottom: 10vw;
+}
+
+.access h2 {
+    font-family: Raleway;
+    font-weight: 700;
+    text-align: center;
+}
+
+.access span {
+    font-family: Open Sans;
+    font-weight: 400;
+    text-align: center;
+    opacity: 80%;
+}
+
+.security {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+}
+
+.security h2 {
+    font-family: Raleway;
+    font-weight: 700;
+    text-align: center;
+}
+
+.security span {
+    font-family: Open Sans;
+    font-weight: 400;
+    text-align: center;
+    opacity: 80%;
+}
+
+.real {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+}
+
+.real h2 {
+    font-family: Raleway;
+    font-weight: 700;
+    text-align: center;
+}
+
+.real span {
+    font-family: Open Sans;
+    font-weight: 400;
+    text-align: center;
+    opacity: 80%;
+}
+
+.store {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+}
+
+.store h2 {
+    font-family: Raleway;
+    font-weight: 700;
+    text-align: center;
+}
+
+.store span {
+    font-family: Open Sans;
+    font-weight: 400;
+    opacity: 80%;
+    text-align: center;
+}
+
+.stay {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    padding-top: 40vw;
+    padding-bottom: 10vw;
+}
+
+.stay-pic {
+    width: 80vw;
+    height: auto;
+    padding-bottom: 8vw
+}
+
+.stay h2 {
+    font-family: Raleway;
+    font-weight: 700;
+}
+
+.stay p {
+    font-family: Open Sans;
+    font-weight: 400;
+    opacity: 80%;
+    text-align: left;
+}
+
+
+.stay-link:hover {
+    color: hsl(176, 68%, 64%);
+    cursor: pointer;
+}
+
+.quotes {
+    display: flex;
+    flex-direction: column;
+    width:8vw;
+    height: auto;
+    padding-top: 32vw;
+    padding-left: 14vw;
+}
+
+.comments {
+    padding-bottom: 4vw;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    margin: 0vw 12vw 0vw 12vw;
+    padding: 4vw 4vw 6vw 6vw;
+    border-radius: 5%;
+    font-family: Open Sans;
+    font-weight: 400;
+    background-color: hsl(219, 30%, 18%);
+    font-size: 0.9em;
+}
+
+.testimonal-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.machine {
+    opacity: 80%
+}
+
+.profile {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    padding-top: 4vw;
+}
+
+.profile img {
+    padding-left: 1vw;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%
+}
+
+.profile-writing {
+    padding-left: 4vw;
+    opacity:80%
+}
+
+.get-early {
+    background-color: hsl(217, 28%, 15%);
+    margin-left: 6vw;
+    margin-right: 6vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8vw;
+    text-align: center;
+    border-radius: 5%;
+    position: relative;
+    z-index: 2;
+    top: 12em
+}
+
+.get-early h2 {
+    font-family: Raleway;
+    font-weight: 700;
+}
+
+.get-early p {
+    font-family: Open Sans;
+    font-weight: 400;
+    opacity: 80%;
+}
+
+.get-early input {
+    font-family: Open Sans;
+    font-weight: 400;
+    padding: 3vw 16vw 3vw 16vw;
+    border-radius: 10vw;
+    border: none;
+    margin-top: 2vw;
+}
+
+.get-early button {
+    color: hsl(0, 0%, 100%);
+    font-family: Raleway;
+    font-weight: 700;
+    padding: 4vw 16vw 4vw 16vw;
+    cursor: pointer;
+    background: linear-gradient(180deg, hsl(198, 60%, 50%), hsl(176, 68%, 64%));
+    border-radius: 10vw;
+    margin-top: 6vw;
+    width: 100%;
+    border: none;
+    margin: none
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color: hsl(216, 53%, 9%);
+    font-family: Open Sans;
+    opacity: 80%;
+    padding-top: 60vw;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    padding-bottom: 16vw;
+    z-index: 1;
+    position: relative
+}
+
+.footer-logo {
+    width: 60%;
+    height: auto;
+    padding-bottom: 6vw;
+}
+
+.location {
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+.one {
+    padding-top: 1vw;
+}
+
+.two {
+    padding-left: 2vw;
+}
+
+.phone {
+    font-size: 1em;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+.mail {
+    font-size: 1em;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+.final {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-family: Open Sans;
+    font-size: 1.2em;
+    padding-top: 20vw;
+    padding-bottom: 4vw;
+}
+
+.final span {
+    padding-top: 2vw;
+    padding-bottom: 2vw
+}
+
+.final2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-family: Open Sans;
+    font-size: 1.2em;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+
+.final2 span {
+    padding-top: 2vw;
+    padding-bottom: 2vw
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 35%;
+    padding-top: 16vw;
+    padding-left: 28vw;
+    padding-right: 20vw;
+}
+
+.social span {
+    font-size: 1.5em;
+    
+}
+
+.soc {
+    border: 1vw hsl(0, 0%, 100%);
+    margin: 1vw hsl(0, 0%, 100%);
+    border-radius: 50%
+}
+
+.final span:hover, .final2 span:hover .social span:hover{
+    color: hsl(176, 68%, 64%);
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .header {
+        padding-bottom: 0vw;
+    }
+
+    .top-part {
+        background-image: url(images/bg-curvy-desktop.svg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 100%;
+        width: 100%;
+        margin-right: 10vw;
+    }
+
+    .logo {
+        padding-left: 2vw;
+    }
+
+    .logo-links {
+        padding-right: 4vw;
+    }
+
+    .get-started img {
+        width: 50vw;
+        height: auto;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+    }
+    
+    .get-started {
+        padding-left: 15vw;
+        padding-right: 15vw;
+    }
+
+    .gs-write {
+        font-size: 1em;
+        padding-top: 0vw;
+        padding-bottom: 0vw;
+    }
+
+    .get-started button {
+        width: 40%;
+        padding: 2vw;
+        margin: -6vw
+    }
+
+    .hot {
+        display: flex;
+        flex-direction: column;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        padding-bottom: 2vw;
+    }
+
+    .hot1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .hot2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .access {
+        padding-top: 16vw;
+        padding-bottom: 5vw;
+        padding-right: 4vw;
+        padding-left: 0vw;
+    }
+
+    .security {
+        padding-top: 16vw;
+        padding-bottom: 5vw;
+        padding-right: 0vw;
+        padding-left: 4vw;
+    }
+
+    .real {
+        padding-top: 5vw;
+        padding-right: 4vw;
+        padding-left: 0vw;
+    }
+
+    .store {
+        padding-top: 5vw;
+        padding-right: 0vw;
+        padding-left: 4vw;
+    }
+
+    .stay {
+        padding: 2vw 8vw 2vw 8vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .stay-pic {
+        width: 44vw;
+        height: auto
+    }
+
+    .stay-writing {
+        display: flex;
+        flex-direction: column;
+        padding-left: 8vw;
+        font-size: 0.8em;
+    }
+
+    .stay h2 {
+        padding: 0vw;
+        font-size: 2em
+    }
+
+    .stay p {
+        padding: 0vw;
+    }
+
+    .quotes {
+        width: 6vw;
+        height: auto;
+        padding-top: 2vw;
+        padding-left: 8vw;
+    }
+
+    .all-comments {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0vw 8vw 0vw 8vw 
+    }
+
+    .comments {
+        padding: 1vw;
+        margin: -2vw -12vw 0vw -12vw;
+    }
+
+    .testimonials {
+        font-size: 0.6em;
+        padding: 1vw 2vw 1vw 3vw;
+        border-radius: 1vw;
+    }
+
+    .testimonal-card {
+        padding: 4vw 8vw 4vw 8vw;
+    }
+
+    .profile {
+        padding: 1vw 0vw 1vw 2vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+
+    .profile img {
+        width: 3vw;
+        height: 3vw;
+        border-radius: 50%;
+        margin: -1vw -2vw 0vw -3vw;
+    }
+
+    .profile-writing {
+        padding: 1vw 1vw 1vw 1.5vw;
+        margin: -2vw 0vw 0vw 1vw
+    }
+
+    .get-early {
+        top: 8em;
+        padding: 2vw 8vw 4vw 8vw;
+    }
+
+    .get-early p {
+        margin-top: -1vw;
+    }
+
+    .get-early form {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .get-early input {
+        padding: 1vw 8vw 1vw 8vw;
+        margin: 1vw 1vw 0vw -3vw;
+        width: 30vw;
+        height: 4vw;
+        font-size: 1.1em;
+    }
+
+    .get-early button {
+        width: 5vw;
+        margin: 1vw -6vw 0vw 2vw;
+        font-size: 1.2em;
+        padding: 1vw 2vw 1vw 2vw;
+        width: 28vw;
+        height:4vh
+    }
+
+    footer {
+        padding-top: 25vw;
+        padding-bottom: 0vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 0.8em;
+        width: 100%
+    }
+
+    .footer-logo {
+        width: 16vw;
+        height: auto;
+        padding-bottom: 2vw;
+        padding-left: 6vw;
+        margin-top: -4vw;
+    }
+
+    .social {
+        padding: 0vw
+    }
+
+    .info {
+        padding-top: 0vw;
+        width: 44vw;
+        padding-left: 6vw
+    }
+
+    .location, .phone, .mail {
+        padding: 1vw
+    }
+
+    .final {
+        padding-top: 3vw
+    }
+
+    .final2 {
+        padding-top: 3vw
+    }
+
+    .final span, .final2 span {
+        padding: 1vw;
+    } 
+
+    .social {
+        width: 10vw;
+        padding-right: 4vw;
+        font-size: 1.2em;
+        margin-top: -13vw
+    }
+}
